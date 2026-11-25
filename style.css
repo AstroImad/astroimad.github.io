@@ -9,3 +9,113 @@ body {
 h1 {
   color: #1d4ed8;
 }
+
+.project-card {
+  padding: 20px;
+  border: 1px solid #dbe3ee;
+  border-radius: 12px;
+  background-color: #f8fafc;
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;;
+    gap: 8px;
+    list-style: none;
+    margin: 0 0 16px;
+    padding: 0;
+}
+
+.tech-stack li {
+    padding: 4px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: #334155;
+}
+
+/* Paste at the end of style.css to keep your existing layout. */
+:root {
+  color-scheme: dark;
+  --track: #0e1015;
+  --panel: #191c24;
+  --text: #eef0f4;
+  --accent: #ff6468;
+  --border: #353b48;
+}
+
+html {
+  background: radial-gradient(ellipse at top right, #35151e, transparent 36rem), var(--track);
+  border-top: 4px solid var(--accent);
+}
+
+body {
+  background: transparent;
+  color: var(--text);
+}
+
+h1 {
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.project-card {
+  background: var(--panel);
+  border-color: var(--border);
+  border-left: 4px solid var(--accent);
+}
+
+.tech-stack li {
+  background: #232731;
+  border-color: var(--border);
+  color: var(--text);
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0 24px;
+}
+
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid var(--border, #353b48);
+  border-radius: 8px;
+  background: var(--panel, #191c24);
+  color: var(--text, #eef0f4);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.contact-links a:hover {
+  border-color: var(--accent, #ff6468);
+  background: #291c26;
+}
+
+.contact-links a:focus-visible {
+  outline: 2px solid var(--accent, #ff6468);
+  outline-offset: 3px;
+}
+
+.contact-links .resume-link {
+  border-color: var(--accent, #ff6468);
+  color: var(--accent, #ff6468);
+}
