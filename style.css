@@ -44,12 +44,12 @@ h1 {
   --track: #0e1015;
   --panel: #191c24;
   --text: #eef0f4;
-  --accent: #ff6468;
+  --accent: #00e0c2;
   --border: #353b48;
 }
 
 html {
-  background: radial-gradient(ellipse at top right, #35151e, transparent 36rem), var(--track);
+  background: radial-gradient(ellipse at top right, #0b302b, transparent 36rem), var(--track);
   border-top: 4px solid var(--accent);
 }
 
@@ -106,16 +106,16 @@ a:focus-visible {
 }
 
 .contact-links a:hover {
-  border-color: var(--accent, #ff6468);
-  background: #291c26;
+  border-color: var(--accent, #00e0c2);
+  background: #12302d;
 }
 
 .contact-links a:focus-visible {
-  outline: 2px solid var(--accent, #ff6468);
+  outline: 2px solid var(--accent, #00e0c2);
   outline-offset: 3px;
 }
 
 .contact-links .resume-link {
-  border-color: var(--accent, #ff6468);
-  color: var(--accent, #ff6468);
+  border-color: var(--accent, #00e0c2);
+  color: var(--accent, #00e0c2);
 }
