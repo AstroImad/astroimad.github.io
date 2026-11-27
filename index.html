@@ -1,59 +1,13 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Imad Duddin | Portfolio</title>
-  <meta name="description" content="Data science portfolio of Imad Duddin, a data scientist with a background in physics.">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="site-header">
-    <a class="site-mark" href="#about">IMAD / PORTFOLIO</a>
-    <nav class="section-nav" aria-label="Portfolio sections">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section id="about" class="about-section" aria-labelledby="about-label">
-      <p id="about-label" class="section-label"><span>01</span> / About</p>
-      <h1>Imad Duddin</h1>
-      <p class="intro">I’m a data scientist with a background in physics.</p>
-      <a class="button button-accent" href="assets/imad-resume.pdf">View résumé (PDF)</a>
-    </section>
-
-    <section id="projects" class="page-section" aria-labelledby="projects-title">
-      <h2 id="projects-title" class="section-label"><span>02</span> / Projects</h2>
-      <article class="project-card">
-        <h3>Treasury Yields and Stock Valuations After a Fed Balance Sheet Shock</h3>
-        <p class="project-meta">Internship project · March to August 2025</p>
-        <ul class="tech-stack" aria-label="Tech stack" role="list">
-          <li>Python</li>
-          <li>pandas</li>
-          <li>statsmodels</li>
-          <li>Matplotlib</li>
-        </ul>
-        <ul class="project-summary">
-          <li><strong>Objective:</strong> 59 quarters of U.S. data (2007 Q2 to 2021 Q4) were analyzed to estimate how the 10-year Treasury yield and the S&amp;P 500 price-to-earnings (P/E) ratio responded to an unexpected expansion of the Fed’s balance sheet.</li>
-          <li><strong>Model selection:</strong> A vector error correction model (VECM) was used because the data suggested a long-run relationship among the series. Because that evidence depended on the lag length, the results were compared with those from a vector autoregression (VAR) in quarterly changes.</li>
-          <li><strong>Findings:</strong> Following a one-standard-deviation balance sheet shock (about a 9% increase), the Treasury yield response was estimated to level off at <strong>−0.20 percentage points</strong>. A negative P/E response was estimated, but its 90% bootstrap confidence band included zero at most horizons.</li>
-          <li><strong>Limitation:</strong> Causality could not be established because the balance sheet expansion could not be fully separated from the market stress that may have prompted it.</li>
-        </ul>
-        <a class="button button-accent" href="https://github.com/AstroImad/Intern-Project-Impact-of-Quantitative-Easing-on-Asset-Valuation-">View full project on GitHub <span aria-hidden="true">↗</span></a>
-      </article>
-    </section>
-
-    <section id="contact" class="page-section" aria-labelledby="contact-title">
-      <h2 id="contact-title" class="section-label"><span>03</span> / Contact</h2>
-      <div class="contact-links">
-        <a class="button" href="mailto:muhdimadduddin04@gmail.com">Email</a>
-        <a class="button" href="https://www.linkedin.com/in/imadjuffri/">LinkedIn</a>
-        <a class="button" href="https://github.com/AstroImad">GitHub</a>
-      </div>
-    </section>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imad Duddin | Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

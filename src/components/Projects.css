@@ -1,0 +1,64 @@
+.projects-section {
+  padding-bottom: clamp(48px, 8vw, 96px);
+}
+
+.projects-label {
+  margin: 0 0 16px;
+  color: var(--accent);
+  font: 700 0.875rem/1.4 ui-monospace, Consolas, monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.project-card {
+  padding: clamp(18px, 4vw, 32px);
+  border: 1px solid #353b48;
+  border-inline-start: 4px solid var(--accent);
+  border-radius: 12px;
+  background-color: #191c24;
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: clamp(1.25rem, 3vw, 1.8rem);
+  line-height: 1.25;
+}
+
+.project-meta {
+  margin: 8px 0 12px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tech-stack li {
+  padding: 4px 12px;
+  border: 1px solid #353b48;
+  border-radius: 999px;
+  background-color: #232731;
+  color: var(--text);
+  font-size: 0.875rem;
+}
+
+.project-summary {
+  max-width: 85ch;
+  margin: 20px 0;
+  padding-inline-start: 1.25rem;
+  color: var(--muted);
+}
+
+.project-summary li + li {
+  margin-top: 8px;
+}
+
+.project-summary strong {
+  color: var(--text);
+}
